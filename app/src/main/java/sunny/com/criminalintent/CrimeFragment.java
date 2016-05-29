@@ -1,7 +1,7 @@
 package sunny.com.criminalintent;
 
-import android.app.Fragment;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.LayoutInflater;
@@ -12,9 +12,6 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-/**
- * Created by sunny on 5/28/16.
- */
 
 public class CrimeFragment extends Fragment {
     private Crime mCrime;
